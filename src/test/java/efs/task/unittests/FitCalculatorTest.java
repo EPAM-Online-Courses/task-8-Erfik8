@@ -54,7 +54,7 @@ class FitCalculatorTest {
 
     @ParameterizedTest(name = "weight")
     //given
-    @ValueSource(doubles = {70.5,75.3,81.2})
+    @ValueSource(doubles = {50.5,55.3,50.2})
     void shouldReturnFalse_whenDietNotRecommendedOnlyWeight(Double weight) {
         //when
         Double height = 1.7;
